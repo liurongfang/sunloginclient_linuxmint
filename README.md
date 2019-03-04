@@ -1,3 +1,6 @@
+I just modify common.h,make it work in Linux Mint,others please see [sunlogin office website](https://sunlogin.oray.com/zh_CN/download).
+following is original readme.
+=============================================================================================================
 Sunlogin Client for linux Version 9.6.1.13983
 
 
