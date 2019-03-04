@@ -1,0 +1,75 @@
+(base) liurf@liurf-CP95L001:~/下载/sunloginclient$ sudo ./install.sh 
+Sunlogin client for linux installer by oray.com
+-------------------------------
+Install sunlogin client to your system?(Y/n)
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+ubuntu
+19.1
+Checking system dependencies....
+OK.
+sunloginclient_linux: no process found
+check operate system OK
+copy oray_rundaemon 			to /usr/local/sunlogin/bin
+copy sunloginclient_linux 		to /usr/local/sunlogin/bin
+copy ethtool 				to /usr/local/sunlogin/bin
+copy accpet.sh 				to /usr/local/sunlogin/bin
+copy watch.sh 				to /usr/local/sunlogin/etc
+copy start.sh 				to /usr/local/sunlogin
+copy common.sh 				to /usr/local/sunlogin
+copy stop.sh 				to /usr/local/sunlogin
+copy uninstall.sh 			to /usr/local/sunlogin
+Created symlink /etc/systemd/system/default.target.wants/runsunloginclient.service → /etc/systemd/system/runsunloginclient.service.
+Start sunlogin now(Y/n)
+Attempting to start sunlgin
+-------------------------------
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+grep: /etc/upstream-release: Is a directory
+ubuntu
+19.1
+Installed
+Please visit http://<this machine ip>:30080   to  configure remote client
+-------------------------------
+Sunlogin started.
+Configure your sunlogin client now(Y/n)
+Input your Oray account:
+18229098780
+Input your account password:
+logining......
+logined.
+Configure your access password:
+Configure your access password(input again):
+Provide web interface(port 30080) for extra configuration?(Y/n)
+webshell is opened.
+Your sunlogin has binded to account "18229098780", machine name "liurf-CP95L001".
+Web configure port (30080) status: (on).
+m_iEpfd == -1, at WaitCompleted.
+Successfully installed Sunlogin client ver 9.6
+-------------------------------
+Start:     /usr/local/sunlogin/start.sh
+Stop:      /usr/local/sunlogin/stop.sh
+Uninstall: /usr/local/sunlogin/uninstall.sh
+-------------------------------
+Configure(via shell):   /usr/local/sunlogin/bin/sunloginclient_linux --mod=shell
+Configure(via browser): Please visit <this machine ip>:30080
+-------------------------------
+Safety note: Block 30080/tcp after configuration.
+-------------------------------
+Note:
+Sunlogin remote desktop for linux needs lightdm to be installed, otherwise functions like SSH, RemoteFile will still work,if it don't work, you need install the package manually.
+Step
+1. apt-get install lightdm
+2. click OK on the pop dialog, select lightdm as your default display manager
+-------------------------------
+Enjoy.
+http://localhost:30080/
