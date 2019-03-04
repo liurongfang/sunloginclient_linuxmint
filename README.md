@@ -4,7 +4,7 @@ others please see [sunlogin office website](https://sunlogin.oray.com/zh_CN/down
 
 following is original information.
 
--
+---
 Sunlogin Client for linux Version 9.6.1.13983
 
 
